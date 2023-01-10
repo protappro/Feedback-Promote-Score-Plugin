@@ -1,0 +1,136 @@
+ #nps_modal{                 
+    background-color: rgba(0, 0, 0, 0.7);
+}
+#nps_modal .modal-dialog{
+    margin-top: 100px;
+    max-width: 650px;
+}
+.close-nps-btn, .close-nps-btns{
+    position: absolute;
+    left: 100%;
+    top: -17px;
+    margin-left: -16px;
+    background-color: #fff !important;
+    border-radius: 19px;
+    opacity: 1;
+    padding: 4px 10px !important;
+    font-size: 1.5rem !important;
+    color: #000 !important;
+    border: 2px solid #004577 !important;
+}
+.close-nps-btn span, .close-nps-btns span{
+    vertical-align: text-top;
+}
+.close-nps-btn:not(:disabled):not(.disabled):focus, .close-nps-btn:not(:disabled):not(.disabled):hover,
+.close-nps-btns:not(:disabled):not(.disabled):focus, .close-nps-btns:not(:disabled):not(.disabled):hover{               
+    opacity: 1;
+}
+#rating-form .modal-body h2.modal-title{
+    color:#004575;
+    font-size: 1.5em;
+    font-weight: bold;
+    margin: 6px 0;
+}
+.clearfixs {
+    overflow: auto;
+    zoom: 1;
+}
+div.rating-header span {
+    display: inline-block;
+    padding: 10px 16px;
+    font-size: 17px;
+    color: #707070;
+}
+.italic {
+    font-style: italic;
+}
+div.rating-header .right {
+    float: right;
+}
+div.rating-header .left {
+    float: left;
+}
+div.rating-container {
+    text-align: center;
+}
+div.rating-container span {
+    border: 1px solid #004677;
+    cursor: pointer;
+    display: inline-block;
+    padding: 10px 16px;
+}
+div.rating-container span:hover {
+    background: #98afcc;
+    color: #000;
+}
+div.rating-container span.selected {
+    background: #004677;
+    color: #fff;
+}
+.mgr-5{
+    margin-right: 5px;
+}
+.mgr-7{
+    margin-right: 7px;
+}
+.font-14{
+    font-size:14px;
+}
+.deg-sec{               
+    padding: 15px 8px 10px 8px;
+}
+.deg-sec span{
+    color: #707070;
+    font-weight: 600;
+}
+.score-info-txt{
+    color: #707070; 
+    font-size:17px; 
+    padding: 6px 4px 0 4px; 
+    font-weight: 600;           
+}
+.nps-btn{
+    margin-top:10px;
+    margin-bottom: 15px;
+    float: right;
+}
+.success-box{
+    display: none;
+}
+.success-box .modal-body{
+    padding: 50px 0;
+    text-align: center;
+}
+.success-box .modal-body h2{
+    text-align:center;
+    color:#004575;
+    font-size: 1.5em;
+    font-weight: bold;
+    margin: 6px 0;
+}
+@media (min-width: 320px) and (max-width: 480px) {
+    .close-nps-btn, .close-nps-btns{
+        left: 96%;
+        top: -16px;
+        margin-left: -16px;
+        background-color: #fff !important;
+        border-radius: 75px;
+        opacity: 1;
+        padding: 4px 10px !important;
+        font-size: 1.5rem !important;
+    }
+
+    #nps_modal .modal-dialog{
+        margin-left: 12px !important;
+        margin-right: 12px !important;
+    }
+    div.rating-container span{
+        padding: 5px 6px !important;
+    }
+    .class-visiable-small{
+        display:block !important;
+    }
+}           
+.class-visiable-small{
+    display:none;
+}
